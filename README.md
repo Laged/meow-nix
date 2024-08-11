@@ -7,7 +7,7 @@ sudo machinectl start nixos
 sudo machinectl shell nixos
 systemctl status meow --user
 ```
-
+![example](./meow.png)
 ## See original post & repo here
 https://nixcademy.com/posts/nixos-nspawn/
 https://github.com/tfc/nspawn-nixos
