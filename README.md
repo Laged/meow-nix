@@ -1,8 +1,14 @@
 # Testing NixOS through nspawn to run systemd processes
 ## ie. NixOS on any distro w/ systemd
 
+```sh
+sudo machinectl pull-tar https://github.com/Laged/meow-nix/releases/download/0.1.0-alpha/nixos-system-x86_64-linux.tar.xz nixos --verify=no
+sudo machinectl start nixos
+sudo machinectl shell nixos
+systemctl status meow --user
+```
 
-See original post & repo here
+## See original post & repo here
 https://nixcademy.com/posts/nixos-nspawn/
 https://github.com/tfc/nspawn-nixos
 
